@@ -9,6 +9,6 @@
   "version": "1.0.0",
   "dependencies": {
     "game": "1.22.0",
-    "artofgrowingpatch": "1.2.2"
+    "artofgrowingpatch": ""
   }
 }
