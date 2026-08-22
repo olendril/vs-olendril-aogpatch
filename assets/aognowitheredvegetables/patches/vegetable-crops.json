@@ -1,0 +1,97 @@
+[
+  {
+    "op": "replace",
+    "path": "/cropProps/growthStages",
+    "value": 7,
+    "file": "game:blocktypes/plant/crop/carrot.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/growthStages",
+    "value": 7,
+    "file": "game:blocktypes/plant/crop/onion.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/growthStages",
+    "value": 6,
+    "file": "game:blocktypes/plant/crop/turnip.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/growthStages",
+    "value": 8,
+    "file": "game:blocktypes/plant/crop/parsnip.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/growthStages",
+    "value": 12,
+    "file": "game:blocktypes/plant/crop/cabbage.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/growthStages",
+    "value": 7,
+    "file": "game:blocktypes/plant/crop/new/carrot.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aogbreedingaddonpatch"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/growthStages",
+    "value": 7,
+    "file": "game:blocktypes/plant/crop/new/onion.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aogbreedingaddonpatch"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/growthStages",
+    "value": 6,
+    "file": "game:blocktypes/plant/crop/new/turnip.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aogbreedingaddonpatch"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/growthStages",
+    "value": 8,
+    "file": "game:blocktypes/plant/crop/new/parsnip.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aogbreedingaddonpatch"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/growthStages",
+    "value": 12,
+    "file": "game:blocktypes/plant/crop/new/cabbage.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aogbreedingaddonpatch"
+      }
+    ]
+  }
+]
