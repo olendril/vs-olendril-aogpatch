@@ -1,6 +1,6 @@
 # AOG No Withered Vegetables
 
-A small server-side Vintage Story content mod for Art of Growing. It stops normal carrot, onion, turnip, parsnip, and cabbage crops at their mature stage, preventing them from advancing into Art of Growing's overmature, blooming, and withered stages.
+A small server-side Vintage Story content mod for Art of Growing. It stops normal carrot, onion, turnip, parsnip, and cabbage crops at their mature stage, preventing them from advancing into Art of Growing's overmature, blooming, and withered stages. Mature cabbage also returns seeds, keeping the crop renewable without allowing it to flower.
 
 The seedling crops (`seedcarrot`, `seedonion`, `seedturnip`, and `seedparsnip`) are deliberately not patched, so players can still grow vegetables for seeds. When Art of Growing: Breeding Addon 1.2.2 is installed, the same behavior applies to all seven crop sizes.
 

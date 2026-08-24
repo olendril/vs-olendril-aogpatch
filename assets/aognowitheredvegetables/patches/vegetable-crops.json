@@ -35,6 +35,55 @@
     "side": "Server"
   },
   {
+    "op": "addmerge",
+    "path": "/dropsByType/*-12/-",
+    "value": {
+      "type": "item",
+      "code": "seeds-{type}",
+      "quantity": { "avg": 3.2 }
+    },
+    "file": "game:blocktypes/plant/crop/cabbage.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aogbreedingaddonpatch",
+        "invert": true
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-12/-",
+    "value": {
+      "type": "item",
+      "code": "artofgrowing:seeds-wild-{type}",
+      "quantity": { "avg": 3.2 }
+    },
+    "file": "game:blocktypes/plant/crop/cabbage.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aogbreedingaddonpatch"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-12/-",
+    "value": {
+      "type": "item",
+      "code": "artofgrowing:seeds-small-{type}",
+      "quantity": { "avg": 0.3 }
+    },
+    "file": "game:blocktypes/plant/crop/cabbage.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aogbreedingaddonpatch"
+      }
+    ]
+  },
+  {
     "op": "replace",
     "path": "/cropProps/growthStages",
     "value": 7,
@@ -86,6 +135,46 @@
     "op": "replace",
     "path": "/cropProps/growthStages",
     "value": 12,
+    "file": "game:blocktypes/plant/crop/new/cabbage.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aogbreedingaddonpatch"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-12/-",
+    "value": {
+      "type": "item",
+      "code": "artofgrowing:seeds-{size}-cabbage",
+      "quantity": { "avg": 3.2 }
+    },
+    "file": "game:blocktypes/plant/crop/new/cabbage.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aogbreedingaddonpatch"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-12/-",
+    "value": {
+      "type": "item",
+      "codeByType": {
+        "*-wild-*": "artofgrowing:seeds-small-{type}",
+        "*-small-*": "artofgrowing:seeds-medium-{type}",
+        "*-medium-*": "artofgrowing:seeds-decent-{type}",
+        "*-decent-*": "artofgrowing:seeds-large-{type}",
+        "*-large-*": "artofgrowing:seeds-hefty-{type}",
+        "*-hefty-*": "artofgrowing:seeds-gigantic-{type}",
+        "*-gigantic-*": "artofgrowing:seeds-gigantic-{type}"
+      },
+      "quantity": { "avg": 0.3 }
+    },
     "file": "game:blocktypes/plant/crop/new/cabbage.json",
     "side": "Server",
     "dependsOn": [
