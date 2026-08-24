@@ -6,7 +6,7 @@
     "Olendril"
   ],
   "description": "Keeps Art of Growing vegetable crops at maturity while preserving seedling crops.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "dependencies": {
     "game": "1.22.0",
     "artofgrowingpatch": ""
